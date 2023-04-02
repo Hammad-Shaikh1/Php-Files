@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+<script language="javascript">
+var Name;
+var Age;
+var Gender;
+
+</script>
+</head>
+
+<body>
+
+<script language="javascript">
+
+Name=prompt("Please Enter Your Good Name","Enter Name Here")
+
+Age=prompt("Please Enter Your Age","Enter Age Number")
+
+Gender=prompt("Please Enter Your Gender","Enter Gender Here")
+
+
+if(Gender=="Male" && Age>=18){
+	document.write("Weclome to Java Script" +"<br> " )
+	
+	document.write("Name="+"Mr "+ Name +"<br> " )
+
+	document.write("Age=" +Age +" Years old"+"<br> " )
+
+	document.write("Gender= "+Gender +"<br> " )
+	alert("Congratulation " + "Mr " + Name +" You are  eligible for this course")
+	document.write("You are  eligible for this course")
+}
+else if(Gender=="Female" && Age>=18){
+
+	document.write("Weclome to Java Script" +"<br> " )
+	document.write("Name="+"Miss "+ Name +"<br> " )
+	document.write("Age=" +Age +" Years old" +"<br> " )
+	document.write("Gender= "+Gender +"<br> " )
+	alert( "Congratulation " +"Miss " + Name +" You are  eligible for this course")
+	document.write("You are eligible for this course")
+
+}
+
+else if(Gender=="female" && Age>=18){
+
+	document.write("Weclome to Java Script" +"<br> " )
+	document.write("Name="+"Miss "+ Name +"<br> " )
+	document.write("Age=" +Age +" Years old" +"<br> " )
+	document.write("Gender= "+Gender +"<br> " )
+	alert( "Congratulation " +"Miss " + Name +" You are  eligible for this course")
+	document.write("You are  eligible for this course")
+
+}
+
+else if(Gender=="male" && Age>=18){
+
+	document.write("Weclome to Java Script" +"<br> " )
+	document.write("Name="+"Mr "+ Name +"<br> " )
+	document.write("Age=" +Age +" Years old"+"<br> " )
+	document.write("Gender= "+Gender +"<br> " )
+	alert("Congratulation " + "Mr " + Name +" You are  eligible for this course")
+	document.write("You are  eligible for this course")
+
+}
+
+else{
+	alert( "You are not  eligible for this course")
+
+	document.write("Weclome to Java Script" +"<br> " )
+	
+	document.write("Name="+ Name +"<br> " )
+
+	document.write("Age=" +Age +" Years old"+"<br> " )
+
+	document.write("Gender= "+Gender +"<br> " )
+	document.write( "You are not eligible for this course")
+	
+	}
+
+</script>
+
+
+
+</body>
+</html>
